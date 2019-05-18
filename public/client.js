@@ -1,4 +1,3 @@
-/* global createCanvas,windowWidth,windowHeight,text,mouseX,mouseY,fill,noStroke,ellipse,io,noCanvas,random */
 // https://www.netlify.com/docs/
 // https://socket.io/docs/
 //https://expressjs.com/fr/api.html
