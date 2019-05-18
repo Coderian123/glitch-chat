@@ -1,2 +1,0 @@
-# glitch-chat
-Hello !

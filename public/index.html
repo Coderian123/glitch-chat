@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>    
+    <script src="/socket.io/socket.io.js" type="text/javascript"></script>  
+    
+    <script src="client.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  </head>
+  <body>
+    <div id="flou">
+      <p id="chat"></p>
+      <input placeholder="Tapez un message" type="text" id="msg" onchange="change()">
+    </div>
+    
+    <div id="noAction">
+      <div id="center">
+        <input placeholder="Tapez un pseudo" type="text" id="pseudoSetter" onchange="setPseudo()">
+      </div>
+    </div>
+  </body>
+</html>
