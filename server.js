@@ -15,7 +15,7 @@ function newConnectionProcess(socket){
 	// console.log('new connection : '+socket.id);
 	// console.log('Adresse IPv6 : '+socket.request.connection.remoteAddress);
 	// console.log('num port : '+socket.request.connection.remotePort);	
-  //console.log(io.engine.clientsCount);
+  console.log(io.engine.clientsCount);
   socket.reponses=[];
   
 	socket.on('newMessage', (data) => {
